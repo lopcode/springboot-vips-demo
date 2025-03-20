@@ -28,6 +28,6 @@ public class DemoApplication {
 		return WebClient.builder()
 				.codecs(configurer -> configurer
 						.defaultCodecs()
-						.maxInMemorySize(16 * 1024 * 1024));
+						.maxInMemorySize(50 * 1024 * 1024));
 	}
 }
