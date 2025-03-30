@@ -64,7 +64,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<jvmArguments>--enable-native-access=ALL-UNNAMED -Dvipsffm.libpath.vips.override="/usr/lib/x86_64-linux-gnu/libvips.so.42" -Dvipsffm.libpath.glib.override="/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0" -Dvipsffm.libpath.gobject.override="/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0"</jvmArguments>
+					<jvmArguments>--enable-native-access=ALL-UNNAMED</jvmArguments>
 				</configuration>
 			</plugin>
 		</plugins>
